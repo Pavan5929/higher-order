@@ -12,7 +12,7 @@ function twice(num){
     console.log(num+":"+(num+num));
 }
 
-function trice(num){
+function thrice(num){
      
     console.log(num+":"+(num+num+num));
 
@@ -29,8 +29,8 @@ function square(num){
 
 console.log("twice");
 arrayAnyOperation(arr,twice);
-console.log("trice");
-arrayAnyOperation(arr,trice);
+console.log("thrice");
+arrayAnyOperation(arr,thrice);
 console.log("cube");
 arrayAnyOperation(arr,cube);
 console.log("square");
